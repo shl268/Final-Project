@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<title>Australia map</title>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+			  integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<body>
+		<div id="container">
+
+			<div class="row">
+				<div class="col-12" id="heading">
+					<h1>Australia's Energy Transition</h1>
+					<h2>Which Australian states are leading and lagging in the transition?</h2>
+				</div>
+			</div>
+
+			<!-- Introduction -->
+			<div class="row" id="block0">
+				<div class="col-12" id="introduction">
+					<h2>Context</h2>
+					<p> Australia struggles to spearhead rapid decarbonisation because its economy relies so much on coal.
+						The Federal government demonstrates limited leadrship in this area, and therefore it is up to individul
+						States to plan and execute the decarbonisation of their respective areas. One way to track their progress against
+						their carbon budgets is to forecast the amount of renewable energy they expect to have from the development and running
+						of Renewable Energy Assets. From analysing this, it becomes clear to us that some states are leading the charge in Australia,
+						whereas others are lagging behind, with more investment and incentives required to meet their targets.</p>
+				</div>
+			</div>
+
+			<!-- Visualisation 1 -->
+			<div class="row" id="block1">
+				<div class="col-12" id="chart-area1">
+					<h2> Which Australian States have the highest carbon emissions?</h2>
+					<h3> Queensland (QLD), New South Wales (NSW) and Victoria (VIC) have the highest emissions and a proportionally higher responsibility to decarbonise.</h3>
+				</div>
+				<div>
+					<img src=/img/wk10submission_SharynLee.png width="150">
+				</div>
+			</div>
+
+			<!-- Visualisation 2 -->
+			<div class="row" id="block2">
+				<div class="col-12" id="chart-area2">
+					<h2>Which states are putting in the most effort to reduce their carbon emissions and meet their carbon budgets?</h2>
+					<h3>Tasmania is leading in already being Carbon negative. However, QLD and VIC are lagging and unlikely to hit their respective renewable targets.</h3>
+				</div>
+				<p>"Carbon Budgets" are an allocation of "emmittable" carbon emissions, by a company or geography, in order for that company or geography to meet their decarbonisation targets.
+					Historically, all Australian States have been reliant on thermal-coal to produce power. Over time, some states have introduced renewable energy sources, such as solar, hydro and wind, to displace coal and cut down their emissions.
+					By analysing the new renewable assets planned for 2022 - 2030, the displaced energy from thermal-coal generation can be calculated, revealing whether or not states will hit their Net Zero by 2050 targets.
+					Note that due to the use of offsets, 2050 emissions targets are not absolute zero, but net-zero.</p>
+			</div>
+
+			<!-- Visualisation 3 -->
+			<div class="row" id="block3">
+				<div class="col-12" id="chart-area3">
+					<h2>Why are QLD and VIC unlikely to meet their carbon budgets?</h2>
+					<h3>QLD and VIC lack plans for new renewable generation assets, in line with their respective energy transition policies.</h3>
+				</div>
+			</div>
+
+			<!-- Visualisation 4 -->
+			<div class="row" id="block4">
+				<div class="col-12" id="chart-area4">
+					<h3> Queensland and Victorian Governments must plan for and build more renewable generation assets if they are to be Net-Zero by 2050. </h3>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- embedding JS libraries -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+				crossorigin="anonymous"></script>
+
+		<!-- Your implementation -->
+		<script src="js/main.js"></script>
+		<script src="js/map.js"></script>
+
+	</body>
+</html>
